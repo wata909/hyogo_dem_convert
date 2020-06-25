@@ -1,5 +1,5 @@
-# ���Ɍ��̂P�� DEM/DSM �� GDAL�ŕϊ��������A���|�W�g��
+# 兵庫県の１ｍ DEM/DSM を GDALで変換したい、レポジトリ
 
-##�f�[�^�o�T
+## データ出典
 
-���ƂȂ�f�[�^�́A�u���Ɍ��@�S�搔�l�n�`�}�@�|�[�^���v�Ō��J����Ă�����̂ł��B�@https://www.geospatial.jp/ckan/dataset/2010-2018-hyogo-geo-potal
+元となるデータは、「兵庫県　全域数値地形図　ポータル」で公開されているものです。　https://www.geospatial.jp/ckan/dataset/2010-2018-hyogo-geo-potal
