@@ -1,0 +1,6 @@
+gdal_translate ./DEM_05LE234_1g.txt ../DEM_05LE234_1g.tif -a_srs EPSG:2447
+gdal_translate ./DSM_05LE234_1g.txt ../DSM_05LE234_1g.tif -a_srs EPSG:2447
+
+
+
+gdal_calc.py -A DSM_05LE234_1g.tif -B DEM_05LE234_1g.tif  --outfile=DIFF_05LE234_1g.tif --calc="A-B"
